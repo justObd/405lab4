@@ -1,0 +1,37 @@
+h1{
+    text-align: center;
+
+}
+
+form{
+    width:  50%;
+    margin: 0 auto;
+
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+
+}
+input , select,textarea{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid beige;
+    border-radius: 7px;
+}
+
+input [type="submit"]{
+    background-color: aquamarine;
+    color: blanchedalmond;
+    cursor: pointer;
+}
+
+input [type="submit"]:hover{
+    background-color: rgb(20, 26, 24);
+    color: rgb(132, 105, 66);
+    cursor: pointer;
+}
+
+textarea{
+    height: 200px;
+}
